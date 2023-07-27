@@ -36,6 +36,7 @@ div{
 
 #Sirhitman{
     justify-content: center;
+    width: 1300px;
 }
 
 
@@ -52,7 +53,12 @@ nav {
  
  
  img {
-    width: 50px;
+    width: 150px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 10s;
+  animation-iteration-count: 1;
  }
 
  .items{
@@ -83,3 +89,11 @@ nav {
 a{
     text-decoration: dotted;
 }
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:-1000px;}
+    50%  {left:1000px; top: -1000px;}
+    75%  {left:1000px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
