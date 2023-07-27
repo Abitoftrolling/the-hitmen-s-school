@@ -5,9 +5,10 @@ h1{
       text-align: center;  
     color: black;  
     background-color: rgba(41, 35, 35, 0.874);
+    font-variant: small-caps;
 }
 
-li, h2, h1, h4, p{
+li, h2, h4, p{
     font-variant: small-caps;
     display: flex;
     justify-content: center;
@@ -51,13 +52,20 @@ nav {
  
  
  img {
-    width: 60px;
+    width: 50px;
+ }
+
+ .items{
+    transition: width 2s, height 2s, transform 2s;
  }
  
  
  .items:hover {
-    background-color: rgb(0, 0, 0);
     opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    transform: rotate(360deg);
+
  }
  
  
@@ -70,4 +78,8 @@ nav {
 #ideals{
     align-content: space-between;
 
+}
+
+a{
+    text-decoration: dotted;
 }
