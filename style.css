@@ -7,10 +7,11 @@ h1{
     background-color: rgba(41, 35, 35, 0.874);
 }
 
-li, h2, h1, h4{
+li, h2, h1, h4, p{
     font-variant: small-caps;
     display: flex;
     justify-content: center;
+    color: azure;
 
 }
 
@@ -20,7 +21,7 @@ h2{
 }
 
 body{
-    background-color: rgb(103, 29, 29);
+    background-image: url("https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_9f0bf3dc-239f-4052-9dc2-84100652639e.jpg");
 }
 
 a{
@@ -39,6 +40,7 @@ div{
 
 h3{
    justify-content: space-around;
+   color: aliceblue;
 }
 nav {
     background-color: #050708;
