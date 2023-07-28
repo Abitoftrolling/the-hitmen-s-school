@@ -92,8 +92,8 @@ a{
 
 @keyframes example {
     0%   {left:0px; top:0px;}
-    25%  {left:0px; top:-1300px;}
-    50%  {left:1000px; top: -1300px;}
+    25%  {left:0px; top:-1450px;}
+    50%  {left:1000px; top: -1450px;}
     75%  {left:1000px; top:0px;}
     100% {left:0px; top:0px;}
   }
