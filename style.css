@@ -1,3 +1,67 @@
+
+
+
+
+/* Updated styles for the navigation links */
+nav {
+    background-color: #050708;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .items {
+    transition: width 1.5s, height 1.5s, transform 1.5s;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+nav .items:hover {
+    opacity: 0.7;
+    width: 100px;
+    height: 100px;
+    transform: rotate(360deg);
+}
+
+nav a {
+    width: 27%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Your existing CSS styles */
+
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #1f2820;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-style: oblique;
+}
+
+/* Slideshow container */
+#slideshow-container {
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+}
+
+/* Hide all slides except the first one */
+.slideshow-image {
+    display: none;
+    width: 100%;
+}
+
+
+
 h1{
      font-family:  'Arial Narrow Bold';
       font-size: 32px;
@@ -44,13 +108,7 @@ h3{
    justify-content: space-around;
    color: aliceblue;
 }
-nav {
-    background-color: #050708;
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
- }
- 
+
  
  img {
     width: 150px;
@@ -61,25 +119,7 @@ nav {
   animation-iteration-count: 1;
  }
 
- .items{
-    transition: width 2s, height 2s, transform 2s;
- }
- 
- 
- .items:hover {
-    opacity: 0.5;
-    width: 50px;
-    height: 50px;
-    transform: rotate(360deg);
 
- }
- 
- 
- a {
-    width: 27%;
-    text-align: center;
-    text-decoration: none;
- }
 
 #ideals{
     align-content: space-between;
@@ -91,11 +131,21 @@ a{
 }
 
 @keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  {left:0px; top:-1450px;}
-    50%  {left:1000px; top: -1450px;}
-    75%  {left:1000px; top:0px;}
-    100% {left:0px; top:0px;}
-  }
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 1000px; top: -1450px;}
+    50%  {left: 0px; top: -1450px;}
+    75%  {left: 0px; top: 0px;}
+    100% {left: 1000px; top: 0px;}
+}
+
+ 
+
+ h3:hover, h4:hover, p:hover, li:hover {
+    font-size: 110%;
+    transition: font-size 0.2s, box-shadow 0.2s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
 
  
